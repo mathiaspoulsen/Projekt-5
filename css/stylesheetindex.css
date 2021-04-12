@@ -25,16 +25,39 @@
 /* Styles for the hero image */
 
 
-li {
-    display: inline-block;
- }
-
 .nav {
 width: auto;
 height: 115px;
 background-color: rgb(109, 169, 169);
 }
 
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  padding-left: 50%;
+}
+
+.nav-area{
+  list-style: none;
+}
+
+.nav-area li{
+  display: inline-block;
+  padding: 0 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-area li a{
+  transition: .3s;
+  color: #fff;
+}
+
+.nav-area li a:hover{
+  color: rgb(109, 169, 169)
+}
 
 .hero {
 width: auto;
