@@ -24,40 +24,56 @@
 
 /* Styles for the hero image */
 
-
+/* Her starter Navbar, arbejder stadig på den - Sara */
 .nav {
 width: auto;
 height: 115px;
 background-color: rgb(109, 169, 169);
 }
 
-header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px;
-  padding-left: 50%;
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: rgb(109, 169, 169);
+  float: right;
+  margin-right: 10%;
 }
 
-.nav-area{
-  list-style: none;
+#navbar a:hover {
+  color:rgb(109, 169, 169);
+  transition: .9s;
+  background-color: #fff;
 }
 
-.nav-area li{
-  display: inline-block;
-  padding: 0 15px;
-  text-transform: uppercase;
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
   text-decoration: none;
 }
 
-.nav-area li a{
-  transition: .3s;
-  color: #fff;
+/* Page content */
+.content {
+  padding: 16px;
 }
 
-.nav-area li a:hover{
-  color: rgb(109, 169, 169)
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* Her slutter Navbar, arbejder stadig på den - Sara */
 
 .hero {
 width: auto;
