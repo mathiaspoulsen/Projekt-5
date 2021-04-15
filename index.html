@@ -7,6 +7,7 @@
       <title>Young Connect</title>
     <meta name="description" content="Frivillig Portal">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
 <Link rel="stylesheet" href="css/stylesheetindex.css">
 <script src="https://kit.fontawesome.com/c14a576db5.js" crossorigin="anonymous"></script>
 
@@ -24,14 +25,14 @@
     <a href="#">Bliv mentor</a>
     <a href="#">Mentorer</a>
     <a href="#">Om os</a>
-</div> 
+</div>
 
 <img src="./images/youngpeople.jpg" class="header"></img>
 <div class="headertitle">Young Connect</div>
 
 <!-- HERO -->
 
-<section class="hero">
+<!-- <section class="hero">
 
 <div class="list2">
 <ul class="ul2">
@@ -42,26 +43,55 @@
 
 </div>
 
-</section>
+</section> -->
 
 <!-- Om Young Connect -->
 
-<section class="about">
 
-<div class="list3">
-  <ul class="ul3">
-    <li>item3.1</li>
-    <li>item3.2</li>
-    <Li>item3.3</Li>
-  </ul>
-</div>
 
-</section>
+  <div class="box">
+    <div class="pic"></div>
+    <div><p class="about"> Lorem ipsum dolor sit amet, consectetur
+       adipisicing elit, sed do eiusmod tempor incididunt ut
+       labore et dolore magna aliqua. Ut enim ad minim veniam,
+       quis nostrud exercitation ullamco laboris nisi ut aliquip
+       ex ea commodo consequat. Duis aute <br><br>irure dolor in
+       reprehenderit.adipisicing elit, sed do eiusmod tempor incididunt
+       labore et dolore magna aliqua. Ut enim ad minim veniam,
+       </p>
+       <button type="button" name="button" id="btnpop" onclick="Pop();"><h2>Bliv medlem</h2></button>
+    </div>
+    <div id="pop">
+      <button type="button" id="end" onclick="shut();"><h1>X</h1></button>
+      <div class="wrapper">
+        <h1><strong>Bliv mentor</strong></h1>
+        <hr>
+        <h2>Navn<b>*</b></h2>
+        <input type="text" placeholder="Navn" id="name"><br>
+        <h2>E-mail<b>*</b></h2>
+        <input type="text" placeholder="E-mail" id="email"><br>
+        <h2>Telefonnummer<b>*</b></h2>
+        <input type="text" placeholder="Telefonnummer" id="phone"><br>
+        <h2>Postnr. <b>*</b></h2>
+        <input type="text" placeholder="postnr." id="city"><br>
+        <p>Vær opmærksom på, at du skal være minimum 18 år
+          for at være mentor. <b>*</b><br>
+          Sæt kryds for at angive, at du er 18 år</p>
+        <input type="checkbox" class="check" value=""><br>
+        <button type="button" onclick="validate();"><h2>indsend</h2></button>
+        <br><div id="text"><h1></h1></div>
+      </div>
+      </div>
+    </div>
+
+
+<!-- <section class="about">
+</section> -->
 
 
 <!-- Bliv Frivillig -->
 
-<section class="projects">
+<!-- <section class="projects">
 
 <div class="list4">
   <ul class="ul4">
@@ -71,7 +101,7 @@
   </ul>
 </div>
 
-</section>
+</section> -->
 
 
 
@@ -83,9 +113,10 @@
      <p> Footer</p>
    </footer>
 </div>
-</section> 
+</section>
 
 
   </body>
   <script src="extrafun.js"></script>
+  <script async src="js/script.js"></script>
 </html>

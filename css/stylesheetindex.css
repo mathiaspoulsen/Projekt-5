@@ -4,18 +4,18 @@
     margin-right: 0;
     padding: 0;
     }
-    
+
     /* Typography imported from Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-    
+
     h1, h2, h3, h4, h5, h6, h7 {
       font-family: 'Montserrat', sans-serif;
     }
-    
+
     p, a {
       font-family: 'Montserrat', sans-serif;
     }
-    
+
     /* Generic styles */
     html {
       scroll-behavior: smooth;
@@ -107,7 +107,7 @@ height: ;
 
 
 .about {
-width: auto;
+width: 100%;
 height: 400px;
 background-color: rgb(rgb(47, 35, 35), green, blue);
 
