@@ -51,9 +51,8 @@
 }
 
 #navbar a:hover {
-  color:rgb(109, 169, 169);
-  transition: .9s;
-  background-color: #fff;
+  transition: .0s;
+  border-bottom: 2px solid #fff;
 }
 
 /* Page content */
