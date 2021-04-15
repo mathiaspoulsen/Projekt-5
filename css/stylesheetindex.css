@@ -26,6 +26,13 @@
 
 /* Her starter Navbar, arbejder stadig på den - Sara */
 
+.logo-img{
+  float: left;
+  position: relative;
+  margin: 10px 15px 10px 10px;
+  padding-left: 10px;
+}
+
 /* Style the navbar */
 #navbar {
   overflow: hidden;
@@ -63,6 +70,26 @@
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
+}
+
+.header {
+  text-align: center;
+  background: none;
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  padding: 0;
+  filter: brightness(50%);
+}
+
+.headertitle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Her slutter Navbar, arbejder stadig på den - Sara */
