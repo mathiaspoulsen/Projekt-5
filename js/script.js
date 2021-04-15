@@ -55,3 +55,22 @@ function validate() {
 
   }
 }
+
+//To Top Knap //
+var toTopButton = document.getElementById("toTopButton");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrolltop > 20 || document.documentElement.scrolltop > 20) {
+    toTopButton.style.display = "none";
+  }
+  else {
+    toTopButton.style.display = "block";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; //For Safari
+  document.documentElement.scrollTop = 0; //For Chrome, Firefox, Internet Explorer og Opera
+}
