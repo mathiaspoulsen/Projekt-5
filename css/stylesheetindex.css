@@ -128,3 +128,10 @@ height: 300px;
 text-align: center;
 background-color: rgb(239, 180, 79);
 }
+
+@media only screen and (max-width: 800px) {
+  .headertitle{
+    top: 30%;
+    left: 50%;
+  }
+}
