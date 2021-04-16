@@ -56,7 +56,7 @@ function validate() {
   }
 }
 
-//To Top Knap //
+//To Top Knap - Naja //
 var toTopButton = document.getElementById("toTopButton");
 
 window.onscroll = function() {scrollFunction()};
