@@ -37,6 +37,7 @@
 #navbar {
   overflow: hidden;
   background-color: rgb(109, 169, 169);
+  z-index: 99;
 }
 
 /* Navbar links */

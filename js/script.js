@@ -74,3 +74,20 @@ function topFunction() {
   document.body.scrollTop = 0; //For Safari
   document.documentElement.scrollTop = 0; //For Chrome, Firefox, Internet Explorer og Opera
 }
+
+// Sticky navigation bar - Sara //
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
