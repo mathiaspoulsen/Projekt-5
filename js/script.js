@@ -124,6 +124,7 @@ function showSlides(n) {
 }
 
 
+// Light and Dark Mode - Emelie //
 var checkbox = document.querySelector('input[name=theme]');
 
 checkbox.addEventListener('change', function() {
