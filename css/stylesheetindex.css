@@ -140,6 +140,8 @@ padding-top: 50px;
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
+  width:60%;
+  margin: auto;
 }
 
 .flex-container div{
